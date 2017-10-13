@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100AC4FE2470C23836678E18 /* Pods_Vampr_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2101673087E7F0F78C1C7D5A /* Pods_Vampr_iOSTests.framework */; };
 		22BF72F51F91130A0085E29F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF72F41F91130A0085E29F /* AppDelegate.m */; };
 		22BF72F81F91130A0085E29F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF72F71F91130A0085E29F /* ViewController.m */; };
 		22BF72FB1F91130A0085E29F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BF72F91F91130A0085E29F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		22BF73031F91130B0085E29F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF73021F91130B0085E29F /* main.m */; };
 		22BF730D1F91130B0085E29F /* Vampr_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */; };
 		22BF73191F91131B0085E29F /* Vampire.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF73181F91131B0085E29F /* Vampire.m */; };
+		598A06E966BF2EA0AE1E2C6B /* Pods_Vampr_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6AEACADD9A369D5749EF9D /* Pods_Vampr_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2101673087E7F0F78C1C7D5A /* Pods_Vampr_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vampr_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BF72F01F91130A0085E29F /* Vampr-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vampr-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BF72F31F91130A0085E29F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22BF72F41F91130A0085E29F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +46,11 @@
 		22BF730E1F91130B0085E29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BF73171F91131B0085E29F /* Vampire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vampire.h; sourceTree = "<group>"; };
 		22BF73181F91131B0085E29F /* Vampire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vampire.m; sourceTree = "<group>"; };
+		BB197A47761FDB8CBF7478AA /* Pods-Vampr-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vampr-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vampr-iOSTests/Pods-Vampr-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0BDB4036AAB74FF4B6D9211 /* Pods-Vampr-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vampr-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vampr-iOSTests/Pods-Vampr-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC7C5A4943E3DE9781AFCD57 /* Pods-Vampr-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vampr-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vampr-iOS/Pods-Vampr-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FE333DBC050D04014F30D14B /* Pods-Vampr-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vampr-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vampr-iOS/Pods-Vampr-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FE6AEACADD9A369D5749EF9D /* Pods_Vampr_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vampr_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598A06E966BF2EA0AE1E2C6B /* Pods_Vampr_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100AC4FE2470C23836678E18 /* Pods_Vampr_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +79,8 @@
 				22BF72F21F91130A0085E29F /* Vampr-iOS */,
 				22BF730B1F91130B0085E29F /* Vampr-iOSTests */,
 				22BF72F11F91130A0085E29F /* Products */,
+				41A963548D6B7C4DA95BE972 /* Pods */,
+				576787D01FE062FFF17F0B3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +120,26 @@
 			path = "Vampr-iOSTests";
 			sourceTree = "<group>";
 		};
+		41A963548D6B7C4DA95BE972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC7C5A4943E3DE9781AFCD57 /* Pods-Vampr-iOS.debug.xcconfig */,
+				FE333DBC050D04014F30D14B /* Pods-Vampr-iOS.release.xcconfig */,
+				BB197A47761FDB8CBF7478AA /* Pods-Vampr-iOSTests.debug.xcconfig */,
+				C0BDB4036AAB74FF4B6D9211 /* Pods-Vampr-iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		576787D01FE062FFF17F0B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE6AEACADD9A369D5749EF9D /* Pods_Vampr_iOS.framework */,
+				2101673087E7F0F78C1C7D5A /* Pods_Vampr_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22BF73111F91130B0085E29F /* Build configuration list for PBXNativeTarget "Vampr-iOS" */;
 			buildPhases = (
+				8F91CB09288BA3CA17F012C2 /* [CP] Check Pods Manifest.lock */,
 				22BF72EC1F91130A0085E29F /* Sources */,
 				22BF72ED1F91130A0085E29F /* Frameworks */,
 				22BF72EE1F91130A0085E29F /* Resources */,
+				AB05513BDE107947D4BF5C67 /* [CP] Embed Pods Frameworks */,
+				4E03CF19AEC5F5A06964D596 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22BF73141F91130B0085E29F /* Build configuration list for PBXNativeTarget "Vampr-iOSTests" */;
 			buildPhases = (
+				578B4AD302F123C429FB0EC6 /* [CP] Check Pods Manifest.lock */,
 				22BF73041F91130B0085E29F /* Sources */,
 				22BF73051F91130B0085E29F /* Frameworks */,
 				22BF73061F91130B0085E29F /* Resources */,
+				7202B313A668B702D7CE69EC /* [CP] Embed Pods Frameworks */,
+				C1A1E424076169F70DDA108D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +242,110 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E03CF19AEC5F5A06964D596 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vampr-iOS/Pods-Vampr-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578B4AD302F123C429FB0EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vampr-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7202B313A668B702D7CE69EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vampr-iOSTests/Pods-Vampr-iOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
+				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vampr-iOSTests/Pods-Vampr-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F91CB09288BA3CA17F012C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vampr-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB05513BDE107947D4BF5C67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vampr-iOS/Pods-Vampr-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A1E424076169F70DDA108D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vampr-iOSTests/Pods-Vampr-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22BF72EC1F91130A0085E29F /* Sources */ = {
@@ -361,6 +503,7 @@
 		};
 		22BF73121F91130B0085E29F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7C5A4943E3DE9781AFCD57 /* Pods-Vampr-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +517,7 @@
 		};
 		22BF73131F91130B0085E29F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE333DBC050D04014F30D14B /* Pods-Vampr-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,6 +531,7 @@
 		};
 		22BF73151F91130B0085E29F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB197A47761FDB8CBF7478AA /* Pods-Vampr-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -401,6 +546,7 @@
 		};
 		22BF73161F91130B0085E29F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BDB4036AAB74FF4B6D9211 /* Pods-Vampr-iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
