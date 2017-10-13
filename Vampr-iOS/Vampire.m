@@ -20,23 +20,22 @@
 }
 
 - (Vampire *)closestCommonAncestorTo:(Vampire *)vampire { 
-    <#code#>;
+    return nil;
 }
 
 - (BOOL)isMoreSeniorThan:(Vampire *)vampire { 
-    <#code#>;
+    return NO;
 }
 
 - (NSUInteger)numberOfVampiresFromOriginal { 
-    <#code#>;
+    return 0;
 }
 
 - (NSUInteger)numberOfOffspring { 
-    <#code#>;
+    return 0;
 }
 
 - (void)addOffspring:(Vampire *)vampire { 
-    <#code#>;
 }
 
 @end

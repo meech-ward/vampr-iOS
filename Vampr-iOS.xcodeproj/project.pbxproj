@@ -14,8 +14,8 @@
 		22BF72FD1F91130A0085E29F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BF72FC1F91130A0085E29F /* Assets.xcassets */; };
 		22BF73001F91130A0085E29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BF72FE1F91130A0085E29F /* LaunchScreen.storyboard */; };
 		22BF73031F91130B0085E29F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF73021F91130B0085E29F /* main.m */; };
-		22BF730D1F91130B0085E29F /* Vampr_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */; };
 		22BF73191F91131B0085E29F /* Vampire.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF73181F91131B0085E29F /* Vampire.m */; };
+		22BF731B1F91173C0085E29F /* VampireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF731A1F91173C0085E29F /* VampireTests.m */; };
 		598A06E966BF2EA0AE1E2C6B /* Pods_Vampr_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6AEACADD9A369D5749EF9D /* Pods_Vampr_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,10 +42,10 @@
 		22BF73011F91130A0085E29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BF73021F91130B0085E29F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22BF73081F91130B0085E29F /* Vampr-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vampr-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vampr_iOSTests.m; sourceTree = "<group>"; };
 		22BF730E1F91130B0085E29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22BF73171F91131B0085E29F /* Vampire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vampire.h; sourceTree = "<group>"; };
 		22BF73181F91131B0085E29F /* Vampire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vampire.m; sourceTree = "<group>"; };
+		22BF731A1F91173C0085E29F /* VampireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VampireTests.m; sourceTree = "<group>"; };
 		BB197A47761FDB8CBF7478AA /* Pods-Vampr-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vampr-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vampr-iOSTests/Pods-Vampr-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0BDB4036AAB74FF4B6D9211 /* Pods-Vampr-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vampr-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vampr-iOSTests/Pods-Vampr-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC7C5A4943E3DE9781AFCD57 /* Pods-Vampr-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vampr-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vampr-iOS/Pods-Vampr-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 		22BF730B1F91130B0085E29F /* Vampr-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */,
 				22BF730E1F91130B0085E29F /* Info.plist */,
+				22BF731A1F91173C0085E29F /* VampireTests.m */,
 			);
 			path = "Vampr-iOSTests";
 			sourceTree = "<group>";
@@ -363,7 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BF730D1F91130B0085E29F /* Vampr_iOSTests.m in Sources */,
+				22BF731B1F91173C0085E29F /* VampireTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
