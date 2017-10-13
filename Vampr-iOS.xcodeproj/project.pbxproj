@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22BF72F51F91130A0085E29F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF72F41F91130A0085E29F /* AppDelegate.m */; };
+		22BF72F81F91130A0085E29F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF72F71F91130A0085E29F /* ViewController.m */; };
+		22BF72FB1F91130A0085E29F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BF72F91F91130A0085E29F /* Main.storyboard */; };
+		22BF72FD1F91130A0085E29F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BF72FC1F91130A0085E29F /* Assets.xcassets */; };
+		22BF73001F91130A0085E29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BF72FE1F91130A0085E29F /* LaunchScreen.storyboard */; };
+		22BF73031F91130B0085E29F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF73021F91130B0085E29F /* main.m */; };
+		22BF730D1F91130B0085E29F /* Vampr_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22BF73091F91130B0085E29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22BF72E81F91130A0085E29F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22BF72EF1F91130A0085E29F;
+			remoteInfo = "Vampr-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22BF72F01F91130A0085E29F /* Vampr-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vampr-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BF72F31F91130A0085E29F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22BF72F41F91130A0085E29F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22BF72F61F91130A0085E29F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22BF72F71F91130A0085E29F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22BF72FA1F91130A0085E29F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22BF72FC1F91130A0085E29F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22BF72FF1F91130A0085E29F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22BF73011F91130A0085E29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BF73021F91130B0085E29F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22BF73081F91130B0085E29F /* Vampr-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vampr-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vampr_iOSTests.m; sourceTree = "<group>"; };
+		22BF730E1F91130B0085E29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22BF72ED1F91130A0085E29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BF73051F91130B0085E29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BF72E71F91130A0085E29F = {
+			isa = PBXGroup;
+			children = (
+				22BF72F21F91130A0085E29F /* Vampr-iOS */,
+				22BF730B1F91130B0085E29F /* Vampr-iOSTests */,
+				22BF72F11F91130A0085E29F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22BF72F11F91130A0085E29F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22BF72F01F91130A0085E29F /* Vampr-iOS.app */,
+				22BF73081F91130B0085E29F /* Vampr-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22BF72F21F91130A0085E29F /* Vampr-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				22BF72F31F91130A0085E29F /* AppDelegate.h */,
+				22BF72F41F91130A0085E29F /* AppDelegate.m */,
+				22BF72F61F91130A0085E29F /* ViewController.h */,
+				22BF72F71F91130A0085E29F /* ViewController.m */,
+				22BF72F91F91130A0085E29F /* Main.storyboard */,
+				22BF72FC1F91130A0085E29F /* Assets.xcassets */,
+				22BF72FE1F91130A0085E29F /* LaunchScreen.storyboard */,
+				22BF73011F91130A0085E29F /* Info.plist */,
+				22BF73021F91130B0085E29F /* main.m */,
+			);
+			path = "Vampr-iOS";
+			sourceTree = "<group>";
+		};
+		22BF730B1F91130B0085E29F /* Vampr-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */,
+				22BF730E1F91130B0085E29F /* Info.plist */,
+			);
+			path = "Vampr-iOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22BF72EF1F91130A0085E29F /* Vampr-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BF73111F91130B0085E29F /* Build configuration list for PBXNativeTarget "Vampr-iOS" */;
+			buildPhases = (
+				22BF72EC1F91130A0085E29F /* Sources */,
+				22BF72ED1F91130A0085E29F /* Frameworks */,
+				22BF72EE1F91130A0085E29F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vampr-iOS";
+			productName = "Vampr-iOS";
+			productReference = 22BF72F01F91130A0085E29F /* Vampr-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22BF73071F91130B0085E29F /* Vampr-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BF73141F91130B0085E29F /* Build configuration list for PBXNativeTarget "Vampr-iOSTests" */;
+			buildPhases = (
+				22BF73041F91130B0085E29F /* Sources */,
+				22BF73051F91130B0085E29F /* Frameworks */,
+				22BF73061F91130B0085E29F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BF730A1F91130B0085E29F /* PBXTargetDependency */,
+			);
+			name = "Vampr-iOSTests";
+			productName = "Vampr-iOSTests";
+			productReference = 22BF73081F91130B0085E29F /* Vampr-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22BF72E81F91130A0085E29F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sam Meech-Ward";
+				TargetAttributes = {
+					22BF72EF1F91130A0085E29F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					22BF73071F91130B0085E29F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22BF72EF1F91130A0085E29F;
+					};
+				};
+			};
+			buildConfigurationList = 22BF72EB1F91130A0085E29F /* Build configuration list for PBXProject "Vampr-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22BF72E71F91130A0085E29F;
+			productRefGroup = 22BF72F11F91130A0085E29F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22BF72EF1F91130A0085E29F /* Vampr-iOS */,
+				22BF73071F91130B0085E29F /* Vampr-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BF72EE1F91130A0085E29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BF73001F91130A0085E29F /* LaunchScreen.storyboard in Resources */,
+				22BF72FD1F91130A0085E29F /* Assets.xcassets in Resources */,
+				22BF72FB1F91130A0085E29F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BF73061F91130B0085E29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22BF72EC1F91130A0085E29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BF72F81F91130A0085E29F /* ViewController.m in Sources */,
+				22BF73031F91130B0085E29F /* main.m in Sources */,
+				22BF72F51F91130A0085E29F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BF73041F91130B0085E29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BF730D1F91130B0085E29F /* Vampr_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22BF730A1F91130B0085E29F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22BF72EF1F91130A0085E29F /* Vampr-iOS */;
+			targetProxy = 22BF73091F91130B0085E29F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22BF72F91F91130A0085E29F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BF72FA1F91130A0085E29F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22BF72FE1F91130A0085E29F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BF72FF1F91130A0085E29F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22BF730F1F91130B0085E29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22BF73101F91130B0085E29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22BF73121F91130B0085E29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vampr-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.Vampr-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22BF73131F91130B0085E29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vampr-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.Vampr-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22BF73151F91130B0085E29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vampr-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.Vampr-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vampr-iOS.app/Vampr-iOS";
+			};
+			name = Debug;
+		};
+		22BF73161F91130B0085E29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vampr-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.Vampr-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vampr-iOS.app/Vampr-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BF72EB1F91130A0085E29F /* Build configuration list for PBXProject "Vampr-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BF730F1F91130B0085E29F /* Debug */,
+				22BF73101F91130B0085E29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BF73111F91130B0085E29F /* Build configuration list for PBXNativeTarget "Vampr-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BF73121F91130B0085E29F /* Debug */,
+				22BF73131F91130B0085E29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BF73141F91130B0085E29F /* Build configuration list for PBXNativeTarget "Vampr-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BF73151F91130B0085E29F /* Debug */,
+				22BF73161F91130B0085E29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22BF72E81F91130A0085E29F /* Project object */;
+}
