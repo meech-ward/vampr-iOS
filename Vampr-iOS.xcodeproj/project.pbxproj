@@ -14,6 +14,7 @@
 		22BF73001F91130A0085E29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BF72FE1F91130A0085E29F /* LaunchScreen.storyboard */; };
 		22BF73031F91130B0085E29F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF73021F91130B0085E29F /* main.m */; };
 		22BF730D1F91130B0085E29F /* Vampr_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */; };
+		22BF73191F91131B0085E29F /* Vampire.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF73181F91131B0085E29F /* Vampire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		22BF73081F91130B0085E29F /* Vampr-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vampr-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BF730C1F91130B0085E29F /* Vampr_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vampr_iOSTests.m; sourceTree = "<group>"; };
 		22BF730E1F91130B0085E29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BF73171F91131B0085E29F /* Vampire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vampire.h; sourceTree = "<group>"; };
+		22BF73181F91131B0085E29F /* Vampire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vampire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				22BF72F41F91130A0085E29F /* AppDelegate.m */,
 				22BF72F61F91130A0085E29F /* ViewController.h */,
 				22BF72F71F91130A0085E29F /* ViewController.m */,
+				22BF73171F91131B0085E29F /* Vampire.h */,
+				22BF73181F91131B0085E29F /* Vampire.m */,
 				22BF72F91F91130A0085E29F /* Main.storyboard */,
 				22BF72FC1F91130A0085E29F /* Assets.xcassets */,
 				22BF72FE1F91130A0085E29F /* LaunchScreen.storyboard */,
@@ -205,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BF73191F91131B0085E29F /* Vampire.m in Sources */,
 				22BF72F81F91130A0085E29F /* ViewController.m in Sources */,
 				22BF73031F91130B0085E29F /* main.m in Sources */,
 				22BF72F51F91130A0085E29F /* AppDelegate.m in Sources */,
